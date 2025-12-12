@@ -4,6 +4,7 @@
   "description": "Food delivery backend (NestJS + MongoDB + Pusher)",
   "scripts": {
     "start": "node dist/main.js",
+    "start:prod": "node dist/main.js",
     "start:dev": "nest start --watch",
     "build": "nest build",
     "lint": "eslint '{src,apps,libs,test}/**/*.ts' --fix",
